@@ -1,0 +1,453 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1700px)
+  .news
+    &:before
+      background-position: 35% top
+
+  .category-service:after
+    top: -10px
+
+  .category-service:after
+    background-position: 35% top
+
+@media only screen and (max-width: 1200px)
+  .logo-wrapper
+    min-width: 200px
+    max-width: 200px
+    bottom: 50px
+
+  .description-name
+    font-size: 12px
+    margin: 10px auto 0
+
+  .header-wrapper
+    padding: 20px 0 0
+
+  .header
+    .menu
+      font-size: 16px
+    .header-links
+      font-size: 18px
+
+  .contacts-item
+    padding: 0
+    margin: 0 0 30px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  .logo-wrapper
+    position: relative
+    bottom: 0
+    left: 0
+    transform: none
+    min-width: auto
+    margin: 0
+
+  .header-box
+    padding: 0
+
+    &:before
+      display: none
+
+  header
+    padding: 10px 0 0
+
+    .description-name
+      display: none
+
+  .btn-burger
+    display: flex
+
+  footer
+    padding: 130px 0 10px
+    &:before
+      top: -30px
+    .logo
+      margin: 0 0 30px
+
+  .footer-box
+    h3
+      margin: 0 0 20px
+
+    .contacts-box
+      margin: 30px 0 0
+
+  .footer-box-consultation
+    padding: 0
+
+    .box-text
+      margin: 0 0 30px
+
+  .form-call
+    button
+      margin: 0 0 0 12px
+
+  .slider-title
+    font-size: 50px
+    line-height: normal
+
+  .home-slider__content
+    max-width: 370px
+    padding: 0 20px 0 0
+
+
+  .home-slider__img
+    width: calc(100% - 370px)
+
+  .home-slider__content .btn
+    margin: 30px 0 25px
+
+  .news:before
+    height: 2500px
+
+  h2
+    font-size: 50px
+
+  .news
+    padding: 40px 0 0
+
+  .category-service-box
+    margin: 0 0 40px
+    font-size: 24px
+
+  .news-card
+    margin: 0 0 60px
+    .btn
+      height: 50px
+      margin: 30px 0 0
+    .box-text
+      font-size: 16px
+      min-height: auto
+
+  .news-card__title
+    margin: 0 0 20px
+    br
+      display: none
+
+  .category-service:before
+    width: 450px
+    height: 450px
+    top: -80px
+
+  .header
+    .menu
+      display: none
+    .btn-call
+      height: 45px
+    .mail
+      margin: 0 20px 0 0
+    .header-links
+      font-size: 16px
+
+  .header-wrapper
+    align-items: center
+
+  .contacts-page
+    h1
+      margin: 0 auto 40px
+
+  .slogan
+    font-size: 22px
+    margin: 0 auto 30px
+
+  .contacts-page-wrapper
+    padding: 0 0 40px
+
+  textarea
+    height: 160px
+
+
+  .about-img
+    margin: 0 0 40px
+
+  .about-page
+    padding: 0 0 60px
+    h1
+      margin: 0 auto 30px
+    .box-text p
+      margin: 0 0 20px
+
+  .about-content
+    margin: 0 0 30px
+
+  .specialists-card, .specialists-card-photo
+    margin: 0 0 40px
+
+  .specialists
+    &:after
+      top: 0
+      width: 400px
+      height: 400px
+    &:before
+      background-position: 45% top
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  header
+    .btn-call
+      display: none
+
+  .home-slider__content
+    max-width: none
+    width: 100%
+    padding: 0
+    .quote
+      max-width: none
+    .btn
+      margin: 30px auto
+      height: 50px
+      font-size: 14px
+
+  .home-description
+    max-width: none
+
+
+  .home-slider__img
+    max-width: 500px
+    width: 100%
+    margin: 0 auto 40px
+
+  .home-slider-wrapper
+    flex-wrap: wrap
+
+  .home
+    padding: 40px 0 25px
+
+  .slider-title
+    font-size: 30px
+    text-align: center
+    margin: 0 auto 20px
+
+  footer
+    padding: 100px 0 10px
+    background-position: 25% top
+    &:before
+      background-position: 25% top
+
+  .news:before
+    height: 3600px
+
+  .category-service:after
+    background-position: 35% top
+
+  h2
+    font-size: 40px
+
+  .header-wrapper
+    padding: 0
+
+  .header
+    .header-row
+      align-items: center
+    .header-col
+      &:first-child
+        width: 100%
+        margin: 0 0 10px
+    .logo-wrapper
+      max-width: 200px
+
+  .article-image
+    margin: 0 0 30px
+
+  .article-content
+    margin: 0 0 50px
+
+  .page
+    padding: 0 0 180px
+    &:before
+      height: 400px
+      bottom: -240px
+      background-position: 35% top
+
+  .news-page
+    h1
+      margin: 0 auto 30px
+
+  .h1-decor span
+    margin: 0 20px
+
+  .news-box__title
+    margin: 15px 0
+
+  .callback
+    .description-box
+      margin: 20px 0
+
+  h3
+    font-size: 24px
+    line-height: normal
+
+  .about-page
+    padding: 0 0 100px
+
+  .specialists h2 span
+    margin: 0 15px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  header
+    .list-social
+      display: none
+
+    .contacts-box
+      margin: 0
+
+    .phone
+      font-size: 16px
+
+    .mail
+      font-size: 14px
+
+  .logo-wrapper
+    max-width: 160px
+
+  .header-box-right
+    justify-content: flex-end
+
+  .header-row
+    align-items: center !important
+
+  .slick-dots
+    li
+      margin: 0 10px 0 0
+      width: 20px
+      height: 20px
+
+
+  .home-slider__nav
+    justify-content: center
+    margin: 0 auto 20px
+
+  .title-decor
+    span
+      margin: 0
+    &:before, &:after
+      display: none
+
+  .news-card__img
+    height: 250px
+
+  .header-col
+    display: none
+
+  .header-wrapper
+    justify-content: flex-end
+
+  .header
+    padding: 10px 0 60px
+
+  h1
+    margin: 0 0 25px
+    font-size: 30px
+
+  .breadcrumb
+    margin: 20px 0
+
+  .pagination
+    margin: 0 0 30px
+
+  .news-box
+    margin: 0 0 40px
+
+  .news-box .box-text p
+    margin: 0 0 20px
+
+  .location-address
+    width: 280px
+    left: -140px !important
+
+  #map
+    height: 400px
+
+  .specialists-card__photo
+    height: auto
+
+  .specialists
+    padding: 0
+    margin: 0
+
+  .specialists-card-row
+    flex-direction: column
+    margin: 0 0 40px
+    align-items: flex-start
+    .specialists-card__photo
+      width: 100%
+      max-width: none
+      order: -1
+    .specialists-card__body
+      width: 100%
+      padding: 20px 0 0
+    .specialists-name
+      margin: 0 auto 10px
+    .box-text
+      text-align: left
+
+
+
+@media only screen and (max-width: 480px)
+  .form-call
+    flex-wrap: wrap
+
+    label
+      width: 100%
+      max-width: none
+      margin: 0 0 12px
+
+    button
+      margin: 0
+
+  .footer-box .contacts-box .btn
+    margin: 20px 0 0
+
+  .category-service-box__img:before
+    width: calc(100% + 20px)
+    height: calc(100% + 10px)
+
+  .article-box
+    padding: 0
+    width: 100%
+    &:last-child
+      padding: 0
+      border: none
+
+  footer .logo
+    max-width: 180px
+
+  .footer-line
+    width: calc(100% - 110px - 110px)
+
+  .footer
+    padding: 60px 0 10px
+
+  .specialists:after
+    width: 300px
+    height: 300px
+
+  .specialists h2
+    margin: 0 auto 35px
+
+  .about-page
+    padding: 0 0 40px
+
+@media only screen and (max-width: 420px)
+  header
+    .contacts-box
+      display: none
+
+  .news-box__img
+    height: 220px
+
+  .news-box__body
+    padding: 15px 0 0
+
+  .header
+    .logo
+      padding: 20px 20px 24px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px)
+  /**/
