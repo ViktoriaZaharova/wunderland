@@ -16,3 +16,5 @@ $('.btn-burger').on('click', function () {
 $('.btn-close').on('click', function () {
    $('.mobile-menu').fadeOut();
 });
+
+new WOW().init();
